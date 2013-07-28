@@ -12,6 +12,16 @@ get '/projects' do
   haml :projects
 end
 
-post '/resume' do
+get '/resume' do
   haml :resume
+end
+
+get '/thoughts/:id' do
+  @thought = Thought.find(:id)
+  haml :thought
+end
+
+get '/projects/:id' do
+  @project = Project.find(:id);
+  haml :project
 end
