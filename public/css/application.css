@@ -1,0 +1,172 @@
+/**************
+ * Containers *
+ **************/
+body {
+  font-family: 'Open Sans', 'Trebuchet MS', 'Verdana', 'Helvetica', 'Arial',
+  sans-serif;
+  color: #000;
+  background-color: #EDEDED;
+  min-width: 75em;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,
+    th,td {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*******************
+ ** TOP CONTAINER **
+ *******************/
+#topContainer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 15em;
+  padding-bottom: 1.5em;
+}
+
+/***********
+ * Sidebar *
+ ***********/
+#sidebar {
+  position: relative;
+  float: left;
+  bottom: 0em;
+  line-height: 9em;
+  width: 12em;
+  padding-left: 3.65em;
+}
+
+#sidebarName {
+  display: block;
+  color: #FF6D00;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+/****************
+ * Main Content *
+ ****************/
+#content {
+  position: absolute;
+  bottom: 0;
+  padding: 3em;
+  padding-left: 17em;
+  margin-right: 15em;
+}
+
+
+/**********************
+ ** BOTTOM CONTAINER **
+ **********************/
+#bottomContainer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/**********
+ * Footer *
+ **********/
+#footer {
+  padding: 1.5em 0em;;
+  width: 100%;
+}
+
+#footer p {
+  margin: 0;
+  margin-right: 3em;
+  text-align: right;
+  color: #777;
+}
+
+/*********************
+ * Text and Headings *
+ *********************/
+* {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+p {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  color: #FF6D00;
+  font-size: 4em;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h2 {
+  color: #2C93BA;
+  font-size: 2.5em;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h3 {
+  color: #3A9AC0;
+  font-size: 1.3em;
+  margin-top: .1em;
+  margin-bottom: .1em;
+}
+
+/*********
+ * Lists *
+ *********/
+li {
+  list-style: square;
+}
+
+
+/*********
+ * Links *
+ *********/
+a img {
+  border: none;
+}
+
+a:link {
+  color: #69C;
+}
+
+a:visited {
+  color: #C3F;
+}
+
+a:hover, a:active, a:focus {
+  color: #C00;
+}
+
+/*****************
+ * Page Elements *
+ *****************/
+hr {
+  height: 1px;
+  border-top: 1px;
+  border-right: none;
+  border-left: none;
+  border-color: #aaa;
+  width: 40%;
+}
+
+table td {
+  vertical-align: top;
+}
