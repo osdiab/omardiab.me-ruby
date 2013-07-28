@@ -25,3 +25,7 @@ get '/projects/:id' do
   @project = Project.find(:id);
   haml :project
 end
+
+get '/credits' do
+  haml :credits
+end
