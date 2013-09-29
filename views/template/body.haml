@@ -1,0 +1,9 @@
+#topContainer
+  #sidebar
+    %span#sidebarName IAB
+  #content
+    = yield
+
+#bottomContainer
+  = haml :titlebar
+  = haml :footer
