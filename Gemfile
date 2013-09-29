@@ -7,10 +7,13 @@ ruby '1.9.3', engine: 'rbx', engine_version: '2.0.0.m8'
 gem 'puma'
 gem 'foreman'
 gem 'sinatra', '1.4.3'
+gem 'rake'
 
 # templating
 gem 'haml'
 gem 'markdown'
+gem 'sass'
+gem 'compass'
 
 # heroku
 gem 'newrelic_rpm'
