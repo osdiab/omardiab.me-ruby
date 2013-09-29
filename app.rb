@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require 'sinatra'
 
 get '/' do
@@ -17,12 +19,10 @@ get '/resume' do
 end
 
 get '/thoughts/:id' do
-  @thought = Thought.find(:id)
   haml :thought
 end
 
 get '/projects/:id' do
-  @project = Project.find(:id);
   haml :project
 end
 
