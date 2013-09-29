@@ -1,0 +1,12 @@
+// open sans
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+// code pro
+$codepro: '/webfonts/Code-Pro/25CFB7_6_0';
+@font-face {
+  font-family: 'Code-Pro-LC';
+  src: url($codepro + '.eot');
+  src: url($codepro + '.eot#iefix') format('embedded-opentype'),
+    url($codepro + '.woff') format('woff'),
+    url($codepro + '.ttf') format('truetype');
+}

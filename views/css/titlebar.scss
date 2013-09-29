@@ -1,7 +1,9 @@
+@import 'constants';
+
 #titlebar {
-  color: #fff;
+  color: #FFF;
   width: 100%;
-  background: #FF6D00;
+  background: $orange;
   padding: 1.25em 0 1.25em 0em;
   height: 7.5em;
   clear: none;

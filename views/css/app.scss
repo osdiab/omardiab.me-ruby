@@ -1,3 +1,8 @@
+@import 'constants';
+@import 'webfonts';
+@import 'titlebar';
+@import 'navigation';
+
 /**************
  * Containers *
  **************/
@@ -5,7 +10,7 @@ body {
   font-family: 'Open Sans', 'Trebuchet MS', 'Verdana', 'Helvetica', 'Arial',
   sans-serif;
   color: #000;
-  background-color: #EDEDED;
+  background-color: $off-white;
   min-width: 75em;
 }
 
@@ -81,13 +86,13 @@ html, body {
 #footer {
   padding: 1.5em 0em;;
   width: 100%;
-}
 
-#footer p {
-  margin: 0;
-  margin-right: 3em;
-  text-align: right;
-  color: #777;
+  p {
+    margin: 0;
+    margin-right: 3em;
+    text-align: right;
+    color: #777;
+  }
 }
 
 /*********************
