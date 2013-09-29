@@ -1,7 +1,7 @@
 #titlebar
-  #titlebarHeader{onclick:"window.location = '/'"}
-    %img#titlebarLogo{src: "/public/images/od-logo.svg", alt: "O"}
+  #titlebarHeader{onclick:'window.location = \'/\''}
+    %img#titlebarLogo{src: '/public/images/od-logo.svg', alt: 'O'}
     %span#titlebarName MAR
 
   #navigation
-    = haml :navigation
+    = haml :'template/navigation'
