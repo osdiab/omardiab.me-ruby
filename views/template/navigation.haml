@@ -1,9 +1,17 @@
 #navLinks
   %ul#navList
-    //TODO: add navlist here
+    %li.navli
+      %a.navLink{href: '/thoughts'} thoughts
+    %li.navli
+      %a.navLink{href: '/projects'} projects
+    %li.navli
+      %a.navLink{href: '/resume'} resume
 #navButtons
-  //TODO: add social list here
-  //'fb' => 'https://www.facebook.com/omar.s.diab',
-  //'linkedin' => 'https://www.linkedin.com/in/osdiab',
-  //'github' => 'https://github.com/osdiab',
-  //'email' => 'mailto:o.s.diab@gmail.com',
+  %a.navButton{href: 'https://www.facebook.com/omar.s.diab'}
+    %img.navButtonImg{src: '/img/buttons/fb-button.svg'}
+  %a.navButton{href: 'https://www.linkedin.com/osdiab'}
+    %img.navButtonImg{src: '/img/buttons/linkedin-button.svg'}
+  %a.navButton{href: 'https://github.com/osdiab'}
+    %img.navButtonImg{src: '/img/buttons/github-button.svg'}
+  %a.navButton{href: 'mailto:o.s.diab@gmail.com'}
+    %img.navButtonImg{src: '/img/buttons/email-button.svg'}
