@@ -29,3 +29,7 @@ end
 get '/credits' do
   haml :credits
 end
+
+not_found do
+  haml :'404'
+end
