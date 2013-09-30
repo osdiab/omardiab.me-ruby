@@ -1,11 +1,11 @@
 #navLinks
   %ul#navList
     %li.navli
-      %a.navLink{href: '/thoughts'} thoughts
+      %a.navLink{id: (section == 'thoughts' ? 'currentNav' : ''), href: '/thoughts'} thoughts
     %li.navli
-      %a.navLink{href: '/projects'} projects
+      %a.navLink{id: (section == 'projects' ? 'currentNav' : ''), href: '/projects'} projects
     %li.navli
-      %a.navLink{href: '/resume'} resume
+      %a.navLink{id: (section == 'resume' ? 'currentNav' : ''), href: '/resume'} resume
 #navButtons
   %a.navButton{href: 'https://www.facebook.com/omar.s.diab'}
     %img.navButtonImg{src: '/img/buttons/fb-button.svg'}

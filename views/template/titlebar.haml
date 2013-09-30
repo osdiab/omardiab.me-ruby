@@ -4,4 +4,5 @@
     %span#titlebarName MAR
 
   #navigation
-    = haml :'template/navigation'
+    - section = request.path.split('/')[1]
+    = haml :'template/navigation', locals: {section: section}
