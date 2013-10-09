@@ -21,6 +21,7 @@ gem 'newrelic_rpm'
 
 # devtools
 group :development, :test do
+  gem 'pre-commit'
   gem 'rspec' # unit testing
   gem 'pre-commit'
 

@@ -22,5 +22,5 @@ doc/
 # sass compiled files
 .sass-cache/
 
-# puma files
+# logs
 log/
