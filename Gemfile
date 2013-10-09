@@ -22,6 +22,7 @@ gem 'newrelic_rpm'
 # devtools
 group :development, :test do
   gem 'rspec' # unit testing
+  gem 'pre-commit'
 
   # linting
   gem 'rubocop'
