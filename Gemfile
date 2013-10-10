@@ -1,14 +1,15 @@
 # encoding: UTF-8
 
 source 'https://rubygems.org'
-ruby '2.1.0', engine: 'rbx', engine_version: '2.0.0'
+ruby '2.0.0', engine: 'rbx', engine_version: '2.0.0.m9'
 
 # core
-gem 'rubysl'
+# gem 'rubysl' # for rbx, running 2.1.0
 gem 'puma'
 gem 'foreman'
 gem 'sinatra', '1.4.3'
 gem 'rake'
+gem 'therubyracer'
 
 # templating
 gem 'haml'
@@ -23,7 +24,6 @@ gem 'newrelic_rpm'
 group :development, :test do
   gem 'pre-commit'
   gem 'rspec' # unit testing
-  gem 'pre-commit'
 
   # linting
   gem 'rubocop'
