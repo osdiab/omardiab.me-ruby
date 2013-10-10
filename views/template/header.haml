@@ -1,0 +1,7 @@
+#title{onclick:'window.location = \'/\''}
+  %img#titleLogo{src: '/img/od-logo.svg', alt: 'O'}
+  %span#titleName MAR
+
+#nav
+  - section = request.path.split('/')[1]
+  = haml :'template/navigation', locals: {section: section}

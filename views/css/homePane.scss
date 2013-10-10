@@ -1,0 +1,36 @@
+@import 'constants';
+
+#homePane {
+  width: 100%;
+  clear: both;
+}
+
+#sideTitle {
+  float: left;
+  margin: 3em;
+}
+
+#sideTitleName {
+  position: relative;
+  float: left;
+  top: .35em;
+  left: -.6em;
+  clear: both;
+
+  font-family: $titleFont;
+  font-size: $titleSize;
+  line-height: $titleLineHeight;
+
+  display: block;
+  color: $orange;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+#homeContent {
+  position: relative;
+  float: left;
+}

@@ -2,12 +2,9 @@
 %html
   = haml :'template/head'
 %body
-  #topContainer
-    #sidebar
-      %span#sidebarName IAB
-    #content
-      = yield
-
-  #bottomContainer
-    = haml :'template/titlebar'
+  #header
+    = haml :'template/header'
+  #content
+    =yield
+  #footer
     = haml :'template/footer'

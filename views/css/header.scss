@@ -1,35 +1,35 @@
 @import 'constants';
 
-#titlebar {
-  color: #FFF;
-  width: 100%;
+#header {
+  color: white;
   background: $orange;
-  padding: 1.25em 0 1.25em 0em;
+  width: 100%;
+  margin-top: 1.5em;
+  padding: 1.25em 0;
   height: 7.5em;
-  clear: none;
-  min-width: 75em;
+  clear: both;
 }
 
-#titlebarHeader {
+#title {
   position: relative;
   font-family: 'Code-Pro-LC', 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
   cursor: hand;
   cursor: pointer;
   float: left;
   margin-right: 3em;
-  margin-left: 5em;
+  margin-left: 4.5em;
 }
 
-#titlebarLogo {
+#titleLogo {
   vertical-align: baseline;
   height: 7.5em;
   padding-right: .25em;
 }
 
-#titlebarName, #sidebarName {
-  font-family: 'Code-Pro-LC', 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 10.5em;
-  line-height: .875em;
+#titleName {
+  font-family: $titleFont;
+  font-size: $titleSize;
+  line-height: $titleLineHeight;
 }
 
 
