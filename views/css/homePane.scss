@@ -3,6 +3,7 @@
 #homePane {
   width: 100%;
   clear: both;
+  box-shadow: 0 .25em 1.5em -.25em #eee;
 }
 
 #sideTitle {
@@ -14,7 +15,7 @@
   position: relative;
   float: left;
   top: .35em;
-  left: -.6em;
+  left: -.3em;
   clear: both;
 
   font-family: $titleFont;
@@ -31,6 +32,11 @@
 }
 
 #homeContent {
-  position: relative;
-  float: left;
+}
+
+#homeImage {
+  display: block;
+  float: right;
+  width: 30em;
+  margin-right: 3em;
 }
